@@ -52,6 +52,7 @@
 ### Built With
 
 * [React.js](https://reactjs.org/)
+* [Demo](https://reactposapp.vercel.app/)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
