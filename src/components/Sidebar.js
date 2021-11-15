@@ -12,8 +12,8 @@ class Sidebar extends React.Component{
       title: "itemmodal",
       modal: false,
       id: 11,
-      name: "",
-      images: "",
+      product_name: "",
+      picture: "",
       price: "",
       category: "",
 		}
@@ -25,7 +25,7 @@ class Sidebar extends React.Component{
   }
   nameChange = (e)=>{
       this.setState ({
-          nameproduct : e.target.value
+          product_name : e.target.value
       })
   }
   priceChange = (e) =>{
@@ -46,12 +46,13 @@ class Sidebar extends React.Component{
   
   
   render(){
-  const {id, name, image, price, category} = this.state
+  const {id, product_name, picture, price, category} = this.state
   const handleSubmit=(event)=>{
     this.idChange()
     event.preventDefault();
-    const addprd ={id, name, image, price, category}
+    const addprd ={id, product_name, picture, price, category}
     this.props.actionModal(addprd)
+    toggle()
   }
   const toggle = () => {
     this.setState({
