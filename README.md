@@ -17,7 +17,7 @@
 
 
 <!-- TABLE OF CONTENTS -->
-<content>
+<details>
   <summary>Information</summary>
   <ol>
     <li>
@@ -35,7 +35,7 @@
     <li><a href="#screenshot">Screenshot</a></li>
     <li><a href="#contact">Contact</a></li>
   </ol>
-</content>
+</details>
 
 
 
