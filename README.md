@@ -9,7 +9,6 @@
   <p align="center">
     React JS Point of Sale App
     <br />
-    ·
     
   </p>
 </div>
